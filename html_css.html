@@ -35,13 +35,53 @@
             }
 
             hr {
-                width: 70px;
+                width: 70%;
+                /*a porcentagem torna o elemento responsivo*/
                 margin: auto;
                 height: 15px;
                 background-color: purple;
                 border: none;
                 border-radius: 5px;
                 box-shadow: black 1px 1px 5px inset;
+                /*inverte a sombra para dentro*/
+            }
+
+            p {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 18px;
+                text-align: justify;
+                letter-spacing: 2px;
+                /*espaçamento entre os caracteres*/
+            }
+
+            li {
+                background-color: #7FFFD4;
+                list-style: square;
+                /*deixa os bullets quadrados*/
+            }
+
+            #destaque {
+                background-color: #FFA500;
+                border: solid 2px black;
+            }
+
+            img {
+                width: 300px;
+                height: 200px;
+            }
+
+            .arredondada {
+                border-radius: 20px;
+            }
+
+            .desck {
+                background-color: green;
+                padding: 8px;
+            }
+
+            #centro {
+                text-align: center;
             }
         </style>
     </head>
@@ -57,14 +97,14 @@
         <hr>
         <p>Abaixo você encontra uma lista com alguns programas utilizados para o desenvolvimento de sites:</p>
         <ul>
-            <li>Brackets</li>
+            <li id="destaque">Brackets</li>
             <li>Notepad++</li>
             <li>Sublime</li>
             <li>Dreamweaver</li>
         </ul>
         <hr>
-        <p>Desenvolvido de acordo com os padrões Web.</p>
-        <p><img src="images/chapeleiro.jpg"></p>
+        <p class="desck arredondada">Desenvolvido de acordo com os padrões Web.</p>
+        <p id="centro" ><img class="arredondada" src="images/chapeleiro.jpg"></p>
 
     </body>
 
