@@ -85,3 +85,92 @@ nav a:hover, nav a:focus{
     justify-content: center;
     align-items: center;
 }
+.rodape-conteudo ul{
+    list-style: none;
+}
+#logo-rodape{
+    min-width: 146px;
+    width: 150px;
+    margin-top: 42px;
+    margin-left: 10px;
+}
+.menu-rodape{
+    text-decoration: none;
+    color:#7F7F80;
+}
+.menu-rodape a:hover{
+    color: #fff;
+}
+.redes img{
+    min-width: 35px;
+    width: 35px;
+}
+.redes ul{
+    display: flex;
+    text-align: center;
+}
+.redes li{
+    width: 15%;
+    padding: 3%;
+}
+.assinatura{
+    color: #fff;
+    background-color: #7F7F80;
+    text-align: center;
+    height: 50px;
+    padding: 1%;
+}
+.assinatura p{
+    padding-top: 3%;
+}
+/*Regra para área de conteudo principal. Definimos uma largura máxima um pouco menor do que a tela toda e centralizamos com a margem em automático.*/
+#conteudo{
+    max-width: 95%;
+    margin: auto;
+}
+#conteudo article{
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 1%;
+    box-shadow: grey 1px 1px 5px;
+}
+#conteudo h2, #conteudo h3, #conteudo p{
+    padding: 1% 0;
+}
+.titulo{
+    font-size: 2em;
+    color: #ED6D19;
+    text-align: center;
+    text-transform: uppercase;
+}
+.destaque img{
+    border-bottom: dotted #ED6D19 5px;
+}
+.text-destaque{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 80px;
+    bottom: 100px;
+    margin-top: 5px;
+    width: 100%;
+}
+.text-destaque h2{
+    color: #000 !important; /*Friza o efeito aplicado, cancelando todos os outros.*/
+    margin-top: 5px;
+    padding: 5px 0 3px 50px;
+}
+.text-destaque p{
+    margin-top: 5px;
+    font-size: 1.1em;
+    padding: 0 0 5px 50px;
+}
+#frase{
+    color: #fff;
+    background-color: #ED6D19;
+    text-align: center;
+    height: 80px;
+}
+#frase p{
+    font-size: 1em;
+    padding: 12px;
+}
